@@ -71,7 +71,8 @@ document.addEventListener("DOMContentLoaded", () => {
   if (shareButton) {
     shareButton.addEventListener("click", () => {
       const message = encodeURIComponent(
-        `Bismillahirahmanirrahim\nAssalamu'alaikum Wr.Wb.\n\nDengan memohon Ridho dan Rahmat Allah SWT, kami bermaksud menyelenggarakan syukuran khitanan Putra kami:\n\n*Dema Hendra Al Faruq*\n\nYang Insya Allah akan diselenggarakan pada:\n*Hari:* Sabtu, 03 Januari 2026\n*Pukul:* 11.00 WIB s/d Selesai\n*Tempat:* KP. GEDONG RT.03/04 KEL. KEMIRIMUKA, KEC. BEJI DEPOK (Posyandu Jati RW 4)\n\nTiada yang dapat kami ucapkan selain ucapan terimakasih dari hati yang tulus apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a kepada Putra kami.\n\nWassalamu'alaikum Warahmatullahi Wabarakatuh`
+        `Bismillahirahmanirrahim\nAssalamu'alaikum Wr.Wb.\n\nDengan memohon Ridho dan Rahmat Allah SWT, kami bermaksud menyelenggarakan syukuran khitanan Putra kami:\n\n*Dema Hendra Al Faruq*\n\nYang Insya Allah akan diselenggarakan pada:\n*Hari:* Sabtu, 03 Januari 2026\n*Pukul:* 11.00 WIB s/d Selesai\n*Tempat:* KP. GEDONG RT.03/04 KEL. KEMIRIMUKA, KEC. BEJI DEPOK (Posyandu Jati RW 4)\n *Buka Undangan Digital* : https://undangan-walimatul-khitan-dema-hendra-al-faruq.vercel.app/\n \n\nTiada yang dapat kami ucapkan selain ucapan terimakasih dari hati yang tulus apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan do'a kepada Putra kami.\n\nWassalamu'alaikum Warahmatullahi Wabarakatuh`
+        // https://undangan-walimatul-khitan-dema-hendra-al-faruq.vercel.app/
       );
       const whatsappUrl = `https://api.whatsapp.com/send?text=${message}`;
       window.open(whatsappUrl, "_blank");
